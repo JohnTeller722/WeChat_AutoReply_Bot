@@ -10,6 +10,6 @@ global:
 contacts:
   - name: "John Teller"
     enabled: true  # 是否启用
-    prefix: "我是自动回复机器人张和，我的主人现在失踪了，我先代为回复~"  # 可选，自定义前缀消息
-  - name: "姚力眉"
+    prefix: "我是自动回复机器人JT，我的主人现在失踪了，我先代为回复~"  # 可选，自定义前缀消息
+  - name: "小A"
     enabled: false # 以通过设置enabled来控制是否监听该联系人
