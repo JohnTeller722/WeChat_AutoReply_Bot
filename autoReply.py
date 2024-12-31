@@ -24,7 +24,7 @@ def load_config():
                     contacts.append({
                         'name': contact['name'],
                         'prefix': contact.get('prefix', 
-                            "我是自动回复机器人JT，我的主人现在失踪了，我先代为回复~")
+                            "我是自动回复机器人张和，我的主人现在失踪了，我先代为回复~")
                     })
             
             return {
@@ -46,7 +46,7 @@ def load_config():
             'CONTACTS': [
                 {
                     'name': 'John Teller',
-                    'prefix': "我是自动回复机器人JT，我的主人现在失踪了，我先代为回复~"
+                    'prefix': "我是自动回复机器人张和，我的主人现在失踪了，我先代为回复~"
                 }
             ],
             'MY_WX_NAME': 'John Teller'
@@ -240,7 +240,7 @@ class WeChatBot:
         
         # 构建消息列表
         messages = [
-            {"role": "system", "content": "你叫\"JT\"，你的主人叫\"JohnTeller\"，他现在失踪了，你现在是在代替他和别人聊天，尽量表现得自然，就像人类自然聊天一样，注意语气友好，并且尽量回复简单，严禁使用表情包，如果要使用请使用颜文字代替"}
+            {"role": "system", "content": "你叫\"张和\"，你的主人叫\"JohnTeller\"，他现在失踪了，你现在是在代替他和别人聊天，尽量表现得自然，就像人类自然聊天一样，注意语气友好，并且尽量回复简单，严禁使用表情包，如果要使用请使用颜文字代替"}
         ]
         
         # 添加历史上下文
